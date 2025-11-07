@@ -1,0 +1,131 @@
+
+> chitfund-frontend@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+   ▲ Next.js 14.0.0
+   - Local:        http://localhost:3001
+
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 1394ms
+ ○ Compiling /page ...
+ ✓ Compiled /page in 1547ms (428 modules)
+ ✓ Compiled in 81ms (220 modules)
+ ✓ Compiled in 248ms (465 modules)
+ ⚠ Fast Refresh had to perform a full reload when app/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 64ms (244 modules)
+ ⚠ Duplicate page detected. app/auth/login/page.js and app/auth/login/page.tsx resolve to /auth/login
+ ✓ Compiled in 82ms (244 modules)
+ ⚠ Duplicate page detected. app/auth/login/page.js and app/auth/login/page.tsx resolve to /auth/login
+ ✓ Compiled in 58ms (244 modules)
+ ⚠ Duplicate page detected. app/auth/login/page.js and app/auth/login/page.tsx resolve to /auth/login
+ ⚠ Duplicate page detected. app/auth/register/page.js and app/auth/register/page.tsx resolve to /auth/register
+ ✓ Compiled in 73ms (244 modules)
+ ⚠ Duplicate page detected. app/auth/login/page.js and app/auth/login/page.tsx resolve to /auth/login
+ ⚠ Duplicate page detected. app/auth/register/page.js and app/auth/register/page.tsx resolve to /auth/register
+ ✓ Compiled /auth/register/page in 240ms (647 modules)
+ ✓ Compiled /not-found in 105ms (652 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled /auth/login/page in 97ms (658 modules)
+ ✓ Compiled in 103ms (303 modules)
+ ⚠ Duplicate page detected. app/auth/register/page.js and app/auth/register/page.tsx resolve to /auth/register
+ ✓ Compiled in 120ms (653 modules)
+ ✓ Compiled in 95ms (477 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Could not find the module "/Users/kokumar2402/Documents/ChitFundManager/frontend/app/auth/register/page.js#" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+[Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/server-development/0.pack.gz'
+}
+[Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/server-development/0.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/server-development/0.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/server-development/0.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/server-development/0.pack.gz'
+[Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/2.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/2.pack.gz'
+}
+[Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/2.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/2.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/2.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/2.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/2.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/2.pack.gz'
+}
+[Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/3.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/3.pack.gz'
+}
+[Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/3.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/3.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/3.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/3.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/3.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/3.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/2.pack.gz'
+ ✓ Compiled in 290ms (465 modules)
+ ✓ Compiled in 108ms (479 modules)
+ ✓ Compiled in 62ms (249 modules)
+ ⚠ Duplicate page detected. app/admin/dashboard/page.js and app/admin/dashboard/page.tsx resolve to /admin/dashboard
+ ✓ Compiled in 56ms (249 modules)
+ ⚠ Duplicate page detected. app/admin/dashboard/page.js and app/admin/dashboard/page.tsx resolve to /admin/dashboard
+ ✓ Compiled in 51ms (249 modules)
+ ⚠ Duplicate page detected. app/admin/dashboard/page.js and app/admin/dashboard/page.tsx resolve to /admin/dashboard
+ ⚠ Duplicate page detected. app/member/dashboard/page.js and app/member/dashboard/page.tsx resolve to /member/dashboard
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/0.pack.gz_' -> '/Users/kokumar2402/Documents/ChitFundManager/frontend/.next/cache/webpack/client-development/0.pack.gz'
+ ⚠ Duplicate page detected. app/admin/dashboard/page.js and app/admin/dashboard/page.tsx resolve to /admin/dashboard
+ ⚠ Duplicate page detected. app/member/dashboard/page.js and app/member/dashboard/page.tsx resolve to /member/dashboard
+ ✓ Compiled in 224ms (479 modules)
+ ✓ Compiled in 92ms (479 modules)
+ ⚠ Duplicate page detected. app/admin/dashboard/page.js and app/admin/dashboard/page.tsx resolve to /admin/dashboard
+ ⚠ Duplicate page detected. app/member/dashboard/page.js and app/member/dashboard/page.tsx resolve to /member/dashboard
+ ✓ Compiled in 196ms (479 modules)
+ ⚠ Duplicate page detected. app/admin/dashboard/page.js and app/admin/dashboard/page.tsx resolve to /admin/dashboard
+ ⚠ Duplicate page detected. app/member/dashboard/page.js and app/member/dashboard/page.tsx resolve to /member/dashboard
